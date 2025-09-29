@@ -1,4 +1,34 @@
+body{background-color: #D6D1D0;}
+header{text-align: center;}
 
+header {background-color:#DEDEDE;
+        h1{font-family: 'Courier New', Courier, monospace;
+        border: 2px solid;
+        border-radius: 2px;}
+        section{display: flex;
+                justify-content: space-around;}
+        a{font-size: x-large}
+        a:hover{text-decoration: underline;}
+}
+#texte-principal{
+    font-family: sans-serif;
+}
 #competences {
     margin-left: 80px;
+}
+#texte-a-propos{
+    margin-left: 80px;
+}
+footer{text-align: center;
+        background-color: black;
+        color: white;
+        border-radius: 2px;}
+
+.projets{display: flex;
+        justify-content: space-evenly;}
+.projets div{
+    border: 3px #D6D1D0;
+}
+.table_scolarite{
+    border: 2px solid;
 }

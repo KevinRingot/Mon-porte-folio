@@ -10,22 +10,21 @@
 </head>
 <body>
     <header><h1 id="titre-principal"><img src="" alt="">Mon porte folio</h1>
-        <nav>
-                    <p>
-                        <a href="#competences">compétences</a>                        
-                        <a href="#projets">projets</a>
-                        <a href="#contact">contact</a>
-                    </p>
-        </nav> 
-        <hr>       
+        <nav id="lien_section">
+                    <section>
+                        <a href="#competences">Compétences</a>                        
+                        <a href="#projets">Projets</a>
+                        <a href="#contact">Contact</a>
+                    </section>
+        </nav>        
     </header>
     <br>
 
     <main>
 
         <section> 
-            <h2>A propos de moi:</h2>
-            <p>je suis Ringot Kevin, étudiant en L1 informatique et passionné par le numérqiue. ce portfolio a pour objectif de présenter mes projets, mes compétences et mon évolution. curieux, motivé et toujours prêt à apprendre, je recherche des opportunités pour mettre en pratique mes connaissances et participer à des projets stimulants.</p>
+            <h3>A propos de moi:</h3>
+            <p id="texte-a-propos">je suis Ringot Kevin, étudiant en L1 informatique et passionné par le numérqiue. ce portfolio a pour objectif de présenter mes projets, mes compétences et mon évolution. curieux, motivé et toujours prêt à apprendre, je recherche des opportunités pour mettre en pratique mes connaissances et participer à des projets stimulants.</p>
         </section>
              
         <h3>Compétence professionel et diplome:</h3>
@@ -45,14 +44,20 @@
                     <li>BAFA</li>
                 </ul>
         </section>
-
-        <section id="projets">
-            <h3>Mes projets:</h3>
-            <ul>
-                <li>Jeux du motus</li>
-                <li>Tableau de bord en anglais</li>
-                <li>Porte Folio en html</li>
-            </ul>
+        <h3>Mes projets:</h3>
+        <section class="projets">
+                <div>
+                    <h3>Projet 1</h3>
+                    <p>Creation d'un jeux du motus en ligne sur python</p>
+                </div>           
+                <div>
+                    <h3>Projet 2</h3>
+                    <p>Creation d'un porte folio en utilisant le language HTML</p>
+                </div>
+                <div>
+                    <h3>Projet 3</h3>
+                    <p>Tableau de bord</p>
+                </div>          
         </section>
 
         <section id="contact">
@@ -64,10 +69,87 @@
             </ul>
         </section>
             
-        
+    <h2>resultat academique</h2>
+    <table class="table_scolarite">
+        <thead>
+            <tr>
+                <th>Ecole/Lycée</th>
+                <th>Classe</th>
+                <th>Année</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Collége Letrion</th>
+                <th>
+                    <table>
+                        <tbody>
+                            <tr><th>6eme</th></tr>
+                            <tr><th>5eme</th></tr>
+                            <tr><th>4eme</th></tr>
+                            <tr><th>3eme</th></tr>
+                        </tbody>
+                    </table>
+                </th>
+                <th>
+                    <table>
+                        <tbody>
+                            <tr><th>2018-2019</th></tr>
+                            <tr><th>2019-2020</th></tr>
+                            <tr><th>2020-2021</th></tr>
+                            <tr><th>2021-2022</th></tr>
+                        </tbody>
+                    </table>
+                </th>
+                <th>
+                    <table>
+                        <tbody>
+                            <tr><th>16</th></tr>
+                            <tr><th>12</th></tr>
+                            <tr><th>14</th></tr>
+                            <tr><th>14</th></tr>
+                        </tbody>
+                    </table>
+                </th>
+            </tr>
+
+            <tr>
+                <th>Giraux sannier</th>
+                <th>
+                    <table>
+                        <tbody>                          
+                                <tr><th>2nd</th></tr>
+                                <tr><th>1er</th></tr>
+                                <tr><th>Terminal</th></tr>                           
+                        </tbody>
+                    </table>
+                </th>
+                <th>
+                    <table>
+                        <tbody>
+                            <tr><th>2022-2023</th></tr>
+                            <tr><th>2023-2024</th></tr>
+                            <tr><th>2024-2025</th></tr>
+                        </tbody>
+                    </table>
+                </th>
+                <th>
+                    <table>
+                        <tbody>
+                                <tr><th>14</th></tr>
+                                <tr><th>13</th></tr>
+                                <tr><th>12</th></tr>
+                        </tbody>
+                    </table>
+                </th>
+                <td></td>
+            </tr>
+       </tbody>
+    </table>
     </main>
     <footer>
-        <p>© 2024 Kevin Ringot. Tous droits réservés.</p>
+        <p>© 2025 Kevin Ringot. Tous droits réservés.</p>
     </footer>
 </body>
 </html>
