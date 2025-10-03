@@ -1,0 +1,23 @@
+.projets{display: flex;
+        justify-content: space-around;
+        margin-top: 10em;
+    }
+th{text-align: center;}
+div{
+    border: 3px solid black;
+    border-radius: 10px;
+    align-self: center;
+}
+body{background-color: #D6D1D0;}
+header{text-align: center;}
+header {background-color:#DEDEDE;
+        h1{font-family: 'Courier New', Courier, monospace;
+        border: 2px solid;
+        border-radius: 2px;}
+        section{display: flex;
+                justify-content: space-around;}
+        a{font-size: x-large;
+          text-decoration:none }
+        a:hover{text-decoration: underline;}
+}
+

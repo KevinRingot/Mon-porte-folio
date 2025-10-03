@@ -1,0 +1,30 @@
+body{background-color: #D6D1D0;}
+header{text-align: center;}
+
+header {background-color:#DEDEDE;
+        h1{font-family: 'Courier New', Courier, monospace;
+        border: 2px solid black;
+        border-radius: 2px;
+        align-self: center;}
+        section{display: flex;
+                justify-content: space-around;}
+        a{font-size: x-large;
+          text-decoration:none }
+        a:hover{text-decoration: underline;}
+}
+
+#texte-principal{
+    font-family: sans-serif;
+}
+
+#texte-a-propos{
+    margin-left: 80px;
+}
+footer{text-align: center;
+        background-color: black;
+        color: white;
+        border-radius: 2px;}
+
+
+
+
