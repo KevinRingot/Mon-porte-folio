@@ -5,16 +5,17 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Porte folio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css\main.css'>
     <script src='main.js'></script>
 </head>
 <body>
     <header><h1 id="titre-principal"><img src="" alt="">Mon porte folio</h1>
         <nav id="lien_section">
                     <section>
-                        <a href="#competences">Compétences</a>                        
-                        <a href="#projets">Projets</a>
+                        <a href="pages\parcours.html">Parcours</a>                        
+                        <a href="pages\projets.html">Projets</a>
                         <a href="#contact">Contact</a>
+                        <a href="pages\galerie.html">Galerie</a>
                     </section>
         </nav>        
     </header>
@@ -27,39 +28,8 @@
             <p id="texte-a-propos">je suis Ringot Kevin, étudiant en L1 informatique et passionné par le numérqiue. ce portfolio a pour objectif de présenter mes projets, mes compétences et mon évolution. curieux, motivé et toujours prêt à apprendre, je recherche des opportunités pour mettre en pratique mes connaissances et participer à des projets stimulants.</p>
         </section>
              
-        <h3>Compétence professionel et diplome:</h3>
-
-        <section id="competences">
-            <h4>Compétence:</h4>
-            <ul>
-                <li>Base HTML</li>
-                <li>Base CSS</li>
-                <li>PYTHON avancé</li>
-            </ul>
-            <h4>Diplome:</h4>
-                <ul>
-                    <li>Brevet mention tres bien</li>
-                    <li>Bac mention assez bien</li>
-                    <li>PSC1</li>
-                    <li>BAFA</li>
-                </ul>
-        </section>
-        <h3>Mes projets:</h3>
-        <section class="projets">
-                <div>
-                    <h3>Projet 1</h3>
-                    <p>Creation d'un jeux du motus en ligne sur python</p>
-                </div>           
-                <div>
-                    <h3>Projet 2</h3>
-                    <p>Creation d'un porte folio en utilisant le language HTML</p>
-                </div>
-                <div>
-                    <h3>Projet 3</h3>
-                    <p>Tableau de bord</p>
-                </div>          
-        </section>
-
+        
+        
         <section id="contact">
             <h3>Me contacter:</h3>
             <ul>
@@ -68,85 +38,50 @@
                 <li>veuillez trouver ici mon <a href="" target="_blank">CV</a>
             </ul>
         </section>
-            
-    <h2>resultat academique</h2>
-    <table class="table_scolarite">
-        <thead>
-            <tr>
-                <th>Ecole/Lycée</th>
-                <th>Classe</th>
-                <th>Année</th>
-                <th>Notes</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th>Collége Letrion</th>
-                <th>
-                    <table>
-                        <tbody>
-                            <tr><th>6eme</th></tr>
-                            <tr><th>5eme</th></tr>
-                            <tr><th>4eme</th></tr>
-                            <tr><th>3eme</th></tr>
-                        </tbody>
-                    </table>
-                </th>
-                <th>
-                    <table>
-                        <tbody>
-                            <tr><th>2018-2019</th></tr>
-                            <tr><th>2019-2020</th></tr>
-                            <tr><th>2020-2021</th></tr>
-                            <tr><th>2021-2022</th></tr>
-                        </tbody>
-                    </table>
-                </th>
-                <th>
-                    <table>
-                        <tbody>
-                            <tr><th>16</th></tr>
-                            <tr><th>12</th></tr>
-                            <tr><th>14</th></tr>
-                            <tr><th>14</th></tr>
-                        </tbody>
-                    </table>
-                </th>
-            </tr>
 
-            <tr>
-                <th>Giraux sannier</th>
-                <th>
-                    <table>
-                        <tbody>                          
-                                <tr><th>2nd</th></tr>
-                                <tr><th>1er</th></tr>
-                                <tr><th>Terminal</th></tr>                           
-                        </tbody>
-                    </table>
-                </th>
-                <th>
-                    <table>
-                        <tbody>
-                            <tr><th>2022-2023</th></tr>
-                            <tr><th>2023-2024</th></tr>
-                            <tr><th>2024-2025</th></tr>
-                        </tbody>
-                    </table>
-                </th>
-                <th>
-                    <table>
-                        <tbody>
-                                <tr><th>14</th></tr>
-                                <tr><th>13</th></tr>
-                                <tr><th>12</th></tr>
-                        </tbody>
-                    </table>
-                </th>
-                <td></td>
-            </tr>
-       </tbody>
-    </table>
+        <form>
+            <fieldset>
+                <legend>Information personnel</legend>
+                <div>
+                    <label for="Nom">Votre Nom :</label>
+                    <input type="text"  id="Nom" name="Nom" placeholder="Nom Prenom">
+                </div>
+                <div>
+                    <label for="Date">Votre date de naissance :</label>
+                    <input type="date"  name="date" max="2009-01-01">
+                </div>
+                <div>
+                    <label for="sexe">sexe</label>
+                    <select name="sexe" id="sexe">
+                        <option value="sexe">Homme</option>
+                        <option value="sexe">Femme</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Info compte</legend>
+                <div>
+                    <label for="username">Nom d'utilisateur :</label>
+                    <input type="text" id="username" name="username" minlength="5" placeholder="Nom d'utilisateur">
+                </div>
+                <div>
+                    <label for="password">Mot de passe :</label>
+                    <input type="password" id="password" name="password" placeholder="Mot de passe">
+                </div>
+                <div>
+                    <label for="mail">Email :</label>
+                    <input type="text" id="mail" name="mail" placeholder="exemple@gmail.com">
+                </div>
+                <div>
+                    <label><input type="checkbox" name="accepter" required>Accepter les conditions général</label>
+                </div>
+            </fieldset>
+            <label for="message">Votre message</label>
+            <input type="text" name="message">
+            <br>
+            <button type="submit">envoyer</button>
+            <button type="reset">effacer</button>
+        </form>
     </main>
     <footer>
         <p>© 2025 Kevin Ringot. Tous droits réservés.</p>

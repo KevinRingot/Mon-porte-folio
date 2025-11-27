@@ -1,0 +1,87 @@
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background: radial-gradient(#0078d7, #0795c4);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+
+#lien_section {
+    margin-top: 10px;
+}
+
+#lien_section a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+#lien_section a:hover {
+    color: #ffeb3b;
+}
+
+
+main {
+    margin: 2rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+
+.projets {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.carte-projet {
+    background: #eef3f7;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.carte-projet:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.carte-projet h3 {
+    color: #0078d7;
+    margin-top: 0;
+}
+
+.carte-projet p {
+    margin-top: 5px;
+}
+
+
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 10px ;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+
